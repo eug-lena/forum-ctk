@@ -19,6 +19,8 @@
 2. `npm install`
 3. `npm run serve`
 
+The website can be viewed on a web browser with the URL `http://localhost:8080/`
+
 # Time spent
 
 The total time spent on this project is approximately 8 hours.
@@ -42,3 +44,12 @@ Then, by clicking `More...` on a specific post, they are taken to a new page, wh
 
 - All backend endpoints and the postman tests are located in `server` & `server/tests`
 - The controllers & models can be found in their respective folders.
+
+The tests can be run locally by doing:
+
+1. `cd server`
+2. `npm test`
+
+Note: these steps need to be followed *after* [setting up the program](#running-the-program).
+
+Otherwise, the `forumDB.postman_collection.json` file can be imported into Postman and run there.
